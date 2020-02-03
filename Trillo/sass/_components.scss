@@ -112,3 +112,26 @@
   &__user-name {
   }
 }
+
+/************************************SIDE NAVIGATIOn*****************************/
+
+.side-nav {
+  &__items {
+  }
+
+  &__link {
+  }
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+/************************************LEGAL TEXT*****************************/
+  .legal {
+  font-size: 1.2rem;
+  padding: 2.5rem;
+  text-align: center;
+  color: var(--color-grey-light-4);
+}
