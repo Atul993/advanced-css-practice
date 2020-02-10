@@ -2,6 +2,12 @@
   background-color: #eee;
   width: 1000px;
   margin: 50px auto;
+
+  display: grid;
+  grid-template-rows: 100px 300px 600px 100px;
+  grid-template-columns: repeat(3, 1fr) 200px;
+
+  grid-gap: 30px;
 }
 
 .container > * {
