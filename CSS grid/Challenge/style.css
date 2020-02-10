@@ -24,6 +24,16 @@
   grid-area: 1 / 1 / 2 / -1;
 }
 
+.sidebar {
+    grid-row: 2 / 4;
+}
+
+.mainContent {
+    /* grid-row: 3 / 4;
+    grid-column: 1 / 4; */
+    grid-area: 3 / 1 / 4 / 4;
+}
+
 .footer {
     /* grid-row: 4 / -1;
     grid-column: 1 / -1; */
