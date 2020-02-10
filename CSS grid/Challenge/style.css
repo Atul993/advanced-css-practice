@@ -1,0 +1,13 @@
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.container > * {
+  background-color: orangered;
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #fff;
+}
